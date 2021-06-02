@@ -1,0 +1,367 @@
+
+
+/* -------------------------------------------
+Name: 		Doptor
+Version:    1.0
+Author:		Rabiul
+ ----------------------------------------------*/
+ @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;600;700;800&display=swap');
+
+/*
+1. General CSS
+      font-family: 'Hind Siliguri', sans-serif;
+      font-family: 'Mulish', sans-serif;
+*/
+
+
+/* ============================================
+1. General CSS
+=============================================== */
+:root{
+    --main-color:#e98b2c;
+    --dark:#1b1b22;
+    --dark-light:#32323a;
+    --white:#fff;
+    --white-light:#c8c8c8;
+}
+
+
+*{
+      margin: 0;
+      padding: 0;
+      outline: none;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style: none;
+  }
+  
+  ::before, ::after{
+      box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    height: 100vh;
+    font-family: 'Hind Siliguri', sans-serif;
+    /* background-color: #EBEDF2; */
+}
+
+  .forbodybg {
+    /* background-color: #EBEDF2; */
+    background: url('../../images/login_bg.png')no-repeat;
+    background-position: 0 0;
+    width: 100%;
+    /* height: 100vh; */
+    background-size: cover;
+}
+
+      /* For scripting */
+
+      .bngfont {
+        font-family: 'Hind Siliguri', sans-serif !important;
+        font-size: 17px !important;
+        height: 48px !important;
+    }
+      .engfont {
+        font-family: 'Mulish', sans-serif !important;
+        font-size: 17.5px !important;
+        height: 48px !important;
+    }
+
+      body.hide-scrolling{
+        overflow-y: hidden;
+      }
+  
+      ul{
+          list-style-type: none;
+      }
+      a{
+          text-decoration: none;
+      }
+
+  table {
+        border-collapse:collapse;
+        border-spacing:0;
+  }
+
+  .section{
+      min-height: 100vh;
+      display: block;  
+      width: 100%;
+  }
+
+  .shadow-dark{
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.10);
+    box-shadow: 0 0 20px rgba(0,0,0,0.10);
+}
+
+  /* .shadow-dark{
+    -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15);
+    box-shadow: 0 0 20px rgba(48,46,77,0.15);
+} */
+
+h3.logintitle {
+    color: #652C90;
+    font-size: 31px;
+    font-family: inherit;
+    margin-bottom: 15px;
+}
+
+label {
+    color: #424244;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+/* ================================= Login Form Design ========================= */
+.totallogin{
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.login-area {
+    width: 400px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.logincontent {
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    padding: 30px 30px 10px 30px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.formbg {
+    background-color: #F5F5F5;
+    border: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.formbg:hover{
+    background-color: #EEEEEE;
+}
+.formbg:active{
+    background-color: #F5F5F5;
+}
+.formbg:focus{
+    background-color: #FFFFFF;
+    box-shadow: none;
+    border: 1px solid #BDBDBD;
+}
+
+.btncustom {
+    display: block;
+    float: left;
+    width: 340px;
+    background-color: #652C90;
+    color: #FFFFFF !important;
+    font-family: inherit;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.passwordreset {
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    border-top: 1px solid #EEEEEE;
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.passwordreset p a {
+    text-decoration: none;
+    color: #0779E4;
+    font-size: 16px;
+    font-family: inherit;
+    list-style: none;
+}
+
+.passwordreset p {
+    margin-bottom: 0px;
+}
+
+.passwordreset p span img{
+
+    margin-right: 10px;
+}
+
+.loginbrand {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.login-logo {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.login-logo a img {
+    text-decoration: none;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+/* ================================= End Login Form Design ========================= */
+/* ================================= Reset  Form Design ========================= */
+
+h3.logintitle.resettitle {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+a.preset {
+    text-decoration: none;
+
+}
+span.passreset {
+    text-align: center;
+    margin-left: 32px;
+    font-family: inherit;
+    font-size: 27px;
+    color: #50AF36;
+}
+
+a.preset img {
+    width: 32px;
+    height: 32px;
+}
+
+button.btn.btncustom.resetbtn {
+    background-color: #50AF36;
+}
+/* =================================End  Reset  Form Design ========================= */
+/* =================================Footer Design ========================= */
+
+footer {
+    background: url('../../images/footer-bg.png') repeat;
+    /* margin-top: 50px; */
+    display: block;
+    float: left;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+footer .top-footer-bar {
+    background: #652C90;
+    text-align: center;
+    padding: 0.1rem 0;
+    height: 10px;
+}
+
+footer .footer {
+    padding: 0.6rem 1rem 0.5rem 0px;
+    color: #333;
+}
+
+footer .footer-line {
+    display: inline-block;
+    float: left;
+    padding: 0.3rem 0 0.3rem 0rem;
+}
+
+footer .credit {
+    display: block;
+}
+
+footer .credit-title {
+    font-size: 0.85rem;
+    display: inline-block;
+    margin-right: 5px;
+}
+.relative {
+    position: relative;
+}
+
+footer .credit img {
+    padding: 0 0.2rem .5rem 0.2rem;
+}
+
+footer .credit-title {
+    font-size: 0.85rem;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+footer .developer-corner {
+    margin-top: 0px;
+    display: block;
+}
+
+footer .developer-title {
+    font-size: 0.85rem;
+    display: inline-block;
+}
+
+footer .developer {
+    display: block;
+    margin-left: 10px;
+}
+
+footer .developer img {
+    height: 17px;
+}
+/* =================================Footer Design End ========================= */
+
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {    
+    border-color:#DD2C00;
+    box-shadow: none;
+}
+
+
+input.parsley-error:focus,
+select.parsley-error:focus,
+textarea.parsley-error:focus {    
+    border-color:#DD2C00;
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483
+}
+
+
+.parsley-errors-list.filled {
+    opacity: 1;
+    color: #DD2C00;
+}
+
+.parsley-errors-list {
+    list-style-type: none;
+    opacity: 0;
+    transition: all .3s ease-in;
+    color: #DD2C00;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.errorsign{
+    color: #DD2C00;
+}

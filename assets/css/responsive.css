@@ -1,0 +1,429 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+@media  screen and (max-width:2560px) {
+
+    .topsidebar {
+        display: block;
+        float: right;
+        width: 100%;
+        background-color: #fff;
+        height: 75px;
+        text-align: right;
+        padding-right: 150px;
+    }
+
+    .dropdown-menu.show {
+        display: block !important;
+        width: 400px !important;
+        position: absolute !important;
+        transform: translate3d(866px, 78px, 0px) !important;
+        top: 0px !important;
+        left: 505px !important;
+        will-change: transform !important;
+        -webkit-transform: translate3d(866px, 78px, 0px) !important;
+        -moz-transform: translate3d(866px, 78px, 0px) !important;
+        -ms-transform: translate3d(866px, 78px, 0px) !important;
+        -o-transform: translate3d(866px, 78px, 0px) !important;
+    }
+}
+
+
+@media  screen and (max-width:1920px) {
+    
+    .topsidebar {
+        padding-right: 10px;
+    }
+
+
+    button#dropdownMenuButton {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        float: right;
+        flex-flow: column;
+        position: relative;
+    }
+    
+    .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: .255em;
+        vertical-align: .255em;
+        content: "";
+        border-top: .3em solid;
+        border-right: .3em solid transparent;
+        border-bottom: 0;
+        border-left: .3em solid transparent;
+        position: absolute;
+        top: 36px;
+        right: 0px;
+    }
+    
+    .dropdown-menu.show {
+        display: block !important;
+        width: 400px !important;
+        position: absolute !important;
+        transform: translate3d(866px, 78px, 0px) !important;
+        top: 0px !important;
+        left: 159px !important;
+        will-change: transform !important;
+        -webkit-transform: translate3d(866px, 78px, 0px) !important;
+        -moz-transform: translate3d(866px, 78px, 0px) !important;
+        -ms-transform: translate3d(866px, 78px, 0px) !important;
+        -o-transform: translate3d(866px, 78px, 0px) !important;
+    }
+
+
+}
+
+
+
+
+
+/* @media screen and (device-aspect-ratio: 16/9) { */
+
+    
+@media screen and (max-width:1537px) {
+
+    .login-logo {
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+
+    .login-logo a img {
+        width: 65%;
+    }
+
+    .logincontent {
+        padding: 30px 30px 10px 30px;
+    }
+
+    span.passreset {
+        font-size: 25px;
+    }
+
+    .passwordreset {
+        margin-top: 35px;
+    }
+
+    
+    .topsidebar {
+        padding-right: 10px;
+    }
+
+
+    button#dropdownMenuButton {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        float: right;
+        flex-flow: column;
+        position: relative;
+    }
+    
+    .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: .255em;
+        vertical-align: .255em;
+        content: "";
+        border-top: .3em solid;
+        border-right: .3em solid transparent;
+        border-bottom: 0;
+        border-left: .3em solid transparent;
+        position: absolute;
+        top: 36px;
+        right: 0px;
+    }
+    
+    .dropdown-menu.show {
+        display: block !important;
+        width: 400px !important;
+        position: absolute !important;
+        transform: translate3d(866px, 78px, 0px) !important;
+        top: 0px !important;
+        left: -129px !important;
+        will-change: transform !important;
+        -webkit-transform: translate3d(866px, 78px, 0px) !important;
+        -moz-transform: translate3d(866px, 78px, 0px) !important;
+        -ms-transform: translate3d(866px, 78px, 0px) !important;
+        -o-transform: translate3d(866px, 78px, 0px) !important;
+    }
+
+
+}
+
+
+@media screen and (max-width:1440px) {
+
+    .dropdown-menu.show {
+        display: block !important;
+        width: 400px !important;
+        position: absolute !important;
+        transform: translate3d(866px, 78px, 0px) !important;
+        top: 0px !important;
+        left: -200px !important;
+        will-change: transform !important;
+        -webkit-transform: translate3d(866px, 78px, 0px) !important;
+        -moz-transform: translate3d(866px, 78px, 0px) !important;
+        -ms-transform: translate3d(866px, 78px, 0px) !important;
+        -o-transform: translate3d(866px, 78px, 0px) !important;
+    }
+
+
+}
+
+@media screen and (max-width:1366px) {
+
+    .dropdown-menu.show {
+        display: block !important;
+        width: 400px !important;
+        position: absolute !important;
+        transform: translate3d(866px, 78px, 0px) !important;
+        top: 0px !important;
+        left: -257px !important;
+        will-change: transform !important;
+        -webkit-transform: translate3d(866px, 78px, 0px) !important;
+        -moz-transform: translate3d(866px, 78px, 0px) !important;
+        -ms-transform: translate3d(866px, 78px, 0px) !important;
+        -o-transform: translate3d(866px, 78px, 0px) !important;
+    }
+
+
+}
+@media screen and (max-width:1366px) {
+
+    .dropdown-menu.show {
+        display: block !important;
+        width: 400px !important;
+        position: absolute !important;
+        transform: translate3d(866px, 78px, 0px) !important;
+        top: 0px !important;
+        left: -257px !important;
+        will-change: transform !important;
+        -webkit-transform: translate3d(866px, 78px, 0px) !important;
+        -moz-transform: translate3d(866px, 78px, 0px) !important;
+        -ms-transform: translate3d(866px, 78px, 0px) !important;
+        -o-transform: translate3d(866px, 78px, 0px) !important;
+    }
+
+
+}
+@media screen and (max-width:1024px) {
+
+    .dropdown-menu.show {
+        display: block !important;
+        width: 400px !important;
+        position: absolute !important;
+        transform: translate3d(866px, 78px, 0px) !important;
+        top: 0px !important;
+        left: -513px !important;
+        will-change: transform !important;
+        -webkit-transform: translate3d(866px, 78px, 0px) !important;
+        -moz-transform: translate3d(866px, 78px, 0px) !important;
+        -ms-transform: translate3d(866px, 78px, 0px) !important;
+        -o-transform: translate3d(866px, 78px, 0px) !important;
+    }
+
+
+}
+
+@media  screen and (max-width:1300px) {
+
+    .personaltext {
+        margin-left: 30px;
+    }
+
+    .personaltext p {
+        font-size: 14px;
+    }
+
+    .personalimg img.photoupload {
+        left: 80%;
+
+    }
+
+    .lineright img {
+        margin-left: 18px;
+    }
+
+}
+
+@media  screen and (max-width:1225px) {
+
+    .personalinfo .personalimg img {
+        width: 130px;
+        height: 130px;
+        border-radius: 36px;
+    }
+    .personaltext p {
+        font-size: 13px;
+    }
+    .personaladdress ul li {
+        margin-bottom: 5px;
+    }
+}
+
+
+@media  screen and (max-width:1150px) {
+    .personalinfo .personalimg img {
+        width: 110px;
+        height: 110px;
+        border-radius: 36px;
+    }
+
+    .personalimg img.photoupload {
+        position: absolute;
+        left: 80%;
+        top: 67%;
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .personaladdress ul li {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+
+}
+
+@media  screen and (max-width:1077px) {
+    span.emailaddress {
+        font-size: 14px;
+    }
+}
+
+@media  screen and (max-width:1040px) {
+    .personaladdress ul li {
+        margin-bottom: 5px;
+        font-size: 11px;
+    }
+
+    .lineright img {
+        margin-left: 0px;
+    }
+
+    span.addressimg img {
+        width: 28px;
+        height: 28px;
+    }
+    span.emailtext {
+        font-size: 13px;
+    }
+    span.mobiletext {
+        font-size: 13px;
+    }
+
+    span.blodtext {
+        font-size: 13px;
+    }
+    span.emailaddress {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 992px){
+
+    .modal-lg, .modal-xl {
+        max-width:1150px;
+    }
+
+    
+    }
+
+@media  screen and (max-width:920px) {
+    .personalinfo {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        float: left;
+    }
+    .lineright {
+       display: none;
+    }
+
+    .personalinfo .personalimg img {
+        width: 136px;
+        height:136px;
+        border-radius: 36px;
+    }
+
+    .personaltext p {
+        font-size: 15px;
+    }
+    .personaladdress {
+        display: flex;
+        float: left;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .personaladdress ul li {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    span.emailaddress {
+        font-size: 16px;
+    }
+    span.emailtext {
+        font-size: 16px;
+    }
+    span.mobiletext {
+        font-size: 16px;
+    }
+    span.blodtext {
+        font-size: 16px;
+    }
+
+    span.addressimg img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .personaladdress {
+        margin-top: 20px;
+    }
+}
+
+
+
+@media  screen and (max-width:768px) {
+    .login-logo a img {
+        width: 50%;
+    }
+    .passwordreset {
+        margin-top: 10px;
+    }
+
+    .btncustom {
+        font-size: 15px;
+    }
+
+    .loginbrand {
+
+        padding: 4px;
+    }
+
+    footer .footer-line {
+        margin: 0 135px;
+        text-align: center;
+    }
+    footer .developer-corner {
+        text-align: center;
+
+    }
+}
+
+
+/* ============================ Form Responsive Code ============================ */
+
+/* ============================ Form Responsive Code ============================ */
+
+
+
+
+
